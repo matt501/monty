@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+      font-family: Lato;
+  }
+}
+
+body{
+  padding:50px;
+}
+
+.highlight{
+    display:block;
+    width: max-content;
+    background-size: 200% auto; 
+    background-image: linear-gradient(to right,#fff 50%,#ff0 50%);
+    background-position: 0% 0;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.highlight.active{
+   animation-name: highlight;
+}
+
+@keyframes highlight {
+    from {background-position: 0% 0;}
+    to {background-position: -100% 0;}
+}
+;
