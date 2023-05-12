@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ['Cantarell', 'Roboto', 'Sedgwick Ave', 'sans-serif'],
+      sans: ['Cantarell', 'Roboto', 'sedgwick', 'sans-serif'],
     },
 
   },
