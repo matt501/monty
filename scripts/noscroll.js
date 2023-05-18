@@ -1,12 +1,6 @@
-const burger = document.querySelector('.burger');
-const body = document.querySelector('body');
+const burger = document.querySelector(".burger");
+const body = document.querySelector("body");
 
-burger.addEventListener('click', () => {
-  body.classList.toggle('no-scroll');
+burger.addEventListener("click", () => {
+  body.classList.toggle("no-scroll");
 });
-
-
-
-
-
-

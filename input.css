@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Cantarell&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Cantarell&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,10 +6,10 @@
 
 @layer base {
   html {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 
   body {
-    font-family: 'Cantarell', sans-serif;
+    font-family: "Cantarell", sans-serif;
   }
 }
